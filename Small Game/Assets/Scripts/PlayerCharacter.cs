@@ -2,9 +2,6 @@ using UnityEngine;
 
 public class PlayerCharacter : MonoBehaviour
 {
-    
-
-    string currentAnimationState;
 
     //momevment varriables
     public float moveSpeed = 5.0f;
@@ -12,6 +9,7 @@ public class PlayerCharacter : MonoBehaviour
     public float gravity = -9.81f;
 
     private CharacterController controller;
+
     private Vector3 velocity;
     private bool isGrounded;
     private int maxJumps = 2;
@@ -41,6 +39,8 @@ public class PlayerCharacter : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        controller = GetComponent<CharacterController>();
+
         if (cameraTransform == null && Camera.main != null)
         {
             cameraTransform = Camera.main.transform;
@@ -90,7 +90,7 @@ public class PlayerCharacter : MonoBehaviour
 
     void HandleDash()
     {
-        if (Input.GetButtonDown("Dash") && canDash && dashDirection != Vector3.zero)
+        if (Input.GetButtonDown("Fire3") && canDash && dashDirection != Vector3.zero)
         { 
            StartCoroutine(Dash());
         }
@@ -169,8 +169,6 @@ public class PlayerCharacter : MonoBehaviour
             HandleMovement();
             HandleJumping();
             HandleDash();
-
-
         }
 
         HandleGrappling();
