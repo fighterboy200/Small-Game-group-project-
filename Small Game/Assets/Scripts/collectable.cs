@@ -8,9 +8,11 @@ public class collectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
+        
         // Check if the object that entered the trigger is the player
         if (other.CompareTag(playerTag))
         {
+
             Collect();
         }
     }
