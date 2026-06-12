@@ -7716,7 +7716,7 @@ MonoBehaviour:
   doubleJumpForce: 7
   crouchSpeed: 2
   crouchYScale: 0.5
-  dashSpeed: 15
+  dashSpeed: 30
   dashDuration: 0.2
   dashCooldown: 0.75
   dashKey: 113
