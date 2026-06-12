@@ -36,6 +36,12 @@ public class PlayMovement : MonoBehaviour
     private bool readyToDash = true;
     private bool isDashing;
 
+    [Header("Bullet Time")]
+    public float slowTimeScale = 0.3f; // The speed of time when active (0.3 = 30% speed)
+    public float transitionSpeed = 5f; // How fast the time changes
+
+
+
     [Header("Keybinds")]
     public KeyCode jumpKey = KeyCode.Space;
     public KeyCode sprintKey = KeyCode.LeftShift;
@@ -133,6 +139,17 @@ public class PlayMovement : MonoBehaviour
 
     private void MyInput()
     {
+        
+        if (Input.GetMouseButton(1)) // 1 is Right Click
+        {
+            Time.timeScale = Mathf.Lerp(Time.timeScale, slowTimeScale, transitionSpeed * Time.unscaledDeltaTime);
+        }
+        else
+        {
+            Time.timeScale = Mathf.Lerp(Time.timeScale, 1f, transitionSpeed * Time.unscaledDeltaTime);
+        }
+
+
         horizontalInput = Input.GetAxisRaw("Horizontal");
         verticalInput = Input.GetAxisRaw("Vertical");
 
@@ -409,11 +426,11 @@ public class PlayMovement : MonoBehaviour
 
     private void HandleStamina()
     {
-        // drain stamina while sprinting
+        // Drain stamina while sprinting
         if (state == MovementState.sprinting)
         {
-            currentStamina -=
-                staminaDrainRate * Time.deltaTime;
+            // Use Time.unscaledDeltaTime so drain speed is constant
+            currentStamina -= staminaDrainRate * Time.unscaledDeltaTime;
 
             if (currentStamina <= 0)
             {
@@ -421,18 +438,17 @@ public class PlayMovement : MonoBehaviour
                 canSprint = false;
             }
         }
-
-        // regenerate stamina
+        // Regenerate stamina
         else if (grounded && state != MovementState.air)
         {
-            currentStamina +=
-                staminaRegenRate * Time.deltaTime;
+            // Use Time.unscaledDeltaTime so regen speed is constant
+            currentStamina += staminaRegenRate * Time.unscaledDeltaTime;
 
             if (currentStamina >= maxStamina)
             {
                 currentStamina = maxStamina;
 
-                // unlock sprint after full recharge
+                // Unlock sprint after full recharge
                 if (sprintReleasedLock)
                 {
                     canSprint = true;
@@ -441,8 +457,7 @@ public class PlayMovement : MonoBehaviour
             }
         }
 
-        // safety clamp
-        currentStamina =
-            Mathf.Clamp(currentStamina, 0, maxStamina);
+        // Safety clamp
+        currentStamina = Mathf.Clamp(currentStamina, 0, maxStamina);
     }
 }
