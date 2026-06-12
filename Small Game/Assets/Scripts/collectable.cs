@@ -8,12 +8,14 @@ public class collectable : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        
+        Debug.Log("Trigger Entered");
+
         // Check if the object that entered the trigger is the player
         if (other.CompareTag(playerTag))
         {
-
+            Debug.Log("Collect script triggered");
             Collect();
+    
         }
     }
 

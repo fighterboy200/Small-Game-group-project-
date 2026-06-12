@@ -51,6 +51,7 @@ public class PlayMovement : MonoBehaviour
     public float playerHeight;
     public LayerMask whatIsGround;
     bool grounded;
+    private bool wasGrounded;
 
     [Header("Slope Handling")]
     public float maxSlopeAngle;
@@ -84,7 +85,6 @@ public class PlayMovement : MonoBehaviour
         sprinting,
         crouching,
         dashing,
-        doubleJumping,
         air
     }
 
@@ -110,10 +110,13 @@ public class PlayMovement : MonoBehaviour
             whatIsGround);
 
         // reset double jump when grounded
-        if (grounded)
+        if (grounded && !wasGrounded)
         {
             canDoubleJump = true;
+            readyToJump = true;
         }
+
+        wasGrounded = grounded;
 
         MyInput();
         SpeedControl();
@@ -229,11 +232,7 @@ public class PlayMovement : MonoBehaviour
             moveSpeed = sprintSpeed;
         }
 
-        // Mode - Double Jumping
-        else if (!grounded && !canDoubleJump)
-        {
-            state = MovementState.doubleJumping;
-        }
+        
 
         // Mode - Walking
         else if (grounded)
@@ -246,6 +245,7 @@ public class PlayMovement : MonoBehaviour
         else
         {
             state = MovementState.air;
+            moveSpeed = walkSpeed;
         }
     }
 
