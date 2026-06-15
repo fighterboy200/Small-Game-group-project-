@@ -22,7 +22,7 @@ public class GrapplingGunCollectable : MonoBehaviour
     private void Collect()
     {
         // 1. Add logic for score, inventory, or sound effects here
-        Debug.Log("Item Collected! Adding " + "to Inventory " );
+        Debug.Log("Grappling Gun Unlocked!");
 
 
         // Change the value permanently in the other script

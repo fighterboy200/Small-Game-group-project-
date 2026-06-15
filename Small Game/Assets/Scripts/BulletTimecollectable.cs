@@ -22,7 +22,7 @@ public class BulletTimecollectable : MonoBehaviour
     private void Collect()
     {
         // 1. Add logic for score, inventory, or sound effects here
-        Debug.Log("Item Collected! Adding " + "to Inventory " );
+        Debug.Log("Bullet Time Unlocked!" );
 
 
         // Change the value permanently in the other script
