@@ -5606,7 +5606,6 @@ GameObject:
   - component: {fileID: 888948298}
   - component: {fileID: 888948297}
   - component: {fileID: 888948296}
-  - component: {fileID: 888948295}
   - component: {fileID: 888948293}
   - component: {fileID: 888948299}
   m_Layer: 0
@@ -5643,21 +5642,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: caae20d87b4a48e409f93ed62617af36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BulletTimecollectable
-  target: {fileID: 1740553622}
-  playerTag: Player
-  scoreValue: 1
---- !u!114 &888948295
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 888948291}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d336328540714429e9dc0232f99c4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Dashcollectable
   target: {fileID: 1740553622}
   playerTag: Player
   scoreValue: 1
@@ -7812,8 +7796,6 @@ GameObject:
   - component: {fileID: 1674828528}
   - component: {fileID: 1674828527}
   - component: {fileID: 1674828526}
-  - component: {fileID: 1674828525}
-  - component: {fileID: 1674828524}
   - component: {fileID: 1674828523}
   - component: {fileID: 1674828522}
   m_Layer: 0
@@ -7875,36 +7857,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1674828524
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674828520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: caae20d87b4a48e409f93ed62617af36, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BulletTimecollectable
-  target: {fileID: 1740553622}
-  playerTag: Player
-  scoreValue: 1
---- !u!114 &1674828525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1674828520}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e9d336328540714429e9dc0232f99c4a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Dashcollectable
-  target: {fileID: 1740553622}
-  playerTag: Player
-  scoreValue: 1
 --- !u!65 &1674828526
 BoxCollider:
   m_ObjectHideFlags: 0
