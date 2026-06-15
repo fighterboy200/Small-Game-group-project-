@@ -6421,7 +6421,7 @@ GameObject:
   - component: {fileID: 1361545209}
   - component: {fileID: 1361545214}
   m_Layer: 0
-  m_Name: Collecatble
+  m_Name: DoubleJumpUnlockCollecatble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6535,12 +6535,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1361545207}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 215, y: 93, z: 55}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25, y: 10.390533, z: 10.75341}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1828569814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1361545214
 MonoBehaviour:
@@ -6554,6 +6554,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf4532079cf817945981a1019cdb7a5a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::collectable
+  target: {fileID: 1740553622}
   playerTag: Player
   scoreValue: 1
 --- !u!1 &1367029736
@@ -7713,6 +7714,7 @@ MonoBehaviour:
   jumpForce: 7
   jumpCooldown: 0.35
   airMultiplier: 0.5
+  DoubleJumpUnlocked: 0
   doubleJumpForce: 7
   crouchSpeed: 2
   crouchYScale: 0.5
@@ -8366,6 +8368,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 114978704}
   m_LocalEulerAnglesHint: {x: 0, y: 270, z: 90}
+--- !u!1 &1828569813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828569814}
+  m_Layer: 0
+  m_Name: Unlocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1828569814
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828569813}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 190, y: 82.60947, z: 44.24659}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1361545213}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1899391743
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9696,4 +9730,4 @@ SceneRoots:
   - {fileID: 499262922}
   - {fileID: 2111244591}
   - {fileID: 269653978}
-  - {fileID: 1361545213}
+  - {fileID: 1828569814}

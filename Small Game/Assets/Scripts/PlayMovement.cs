@@ -18,6 +18,7 @@ public class PlayMovement : MonoBehaviour
     bool readyToJump;
 
     [Header("Double Jump")]
+    public bool DoubleJumpUnlocked = false;
     public float doubleJumpForce;
     private bool canDoubleJump;
 
@@ -103,7 +104,7 @@ public class PlayMovement : MonoBehaviour
     private void Update()
     {
         // ground check
-        grounded = Physics.Raycast(
+            grounded = Physics.Raycast(
             transform.position,
             Vector3.down,
             playerHeight * 0.5f + 0.2f,
@@ -167,7 +168,7 @@ public class PlayMovement : MonoBehaviour
         }
 
         // double jump
-        else if (Input.GetKeyDown(jumpKey) && !grounded && canDoubleJump)
+        else if ( Input.GetKeyDown(jumpKey) && !grounded && canDoubleJump && DoubleJumpUnlocked == true)
         {
             DoubleJump();
         }
