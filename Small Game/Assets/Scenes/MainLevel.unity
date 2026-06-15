@@ -5066,6 +5066,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b7937607e0fe9b843901add9ccccb407, type: 3}
+--- !u!1001 &1047275711
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -56.2389
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 75.72454
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.06355984
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.063559845
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.70424443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.7042443
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -169.686
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_Name
+      value: ModernKitchenStool1 (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
 --- !u!1001 &1090245061
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6789,6 +6858,75 @@ Mesh:
       - serializedVersion: 1
         m_IndexStart: 0
         m_IndexCount: 0
+--- !u!1001 &1422832304
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 65.7
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 81.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071067
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_Name
+      value: ModernKitchenStool1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
 --- !u!43 &1433118791
 Mesh:
   m_ObjectHideFlags: 0
@@ -8757,6 +8895,75 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
+--- !u!1001 &2026890986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 89.143
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.9611936
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 41.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 77.358635
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.5115036
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.51150364
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.48822546
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.48822543
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -90
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -87.332
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+      propertyPath: m_Name
+      value: ModernKitchenStool1 (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
 --- !u!1 &2111244585
 GameObject:
   m_ObjectHideFlags: 0
@@ -9223,3 +9430,6 @@ SceneRoots:
   - {fileID: 1245564122}
   - {fileID: 2004406071}
   - {fileID: 1475903101}
+  - {fileID: 1422832304}
+  - {fileID: 2026890986}
+  - {fileID: 1047275711}
