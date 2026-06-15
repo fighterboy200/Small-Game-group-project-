@@ -28,6 +28,7 @@ public class PlayMovement : MonoBehaviour
     private float startYScale;
 
     [Header("Dashing")]
+    public bool DashUnlocked = false;
     public float dashSpeed;
     public float dashDuration;
     public float dashCooldown;
@@ -38,6 +39,7 @@ public class PlayMovement : MonoBehaviour
     private bool isDashing;
 
     [Header("Bullet Time")]
+    public bool BulletTimeUnlocked = false;
     public float slowTimeScale = 0.3f; // The speed of time when active (0.3 = 30% speed)
     public float transitionSpeed = 5f; // How fast the time changes
 
@@ -144,7 +146,7 @@ public class PlayMovement : MonoBehaviour
     private void MyInput()
     {
         
-        if (Input.GetMouseButton(1)) // 1 is Right Click
+        if (Input.GetMouseButton(1) && BulletTimeUnlocked==true) // 1 is Right Click
         {
             Time.timeScale = Mathf.Lerp(Time.timeScale, slowTimeScale, transitionSpeed * Time.unscaledDeltaTime);
         }
@@ -174,7 +176,7 @@ public class PlayMovement : MonoBehaviour
         }
 
         // when to dash
-        if (Input.GetKeyDown(dashKey) && readyToDash)
+        if (Input.GetKeyDown(dashKey) && readyToDash && DashUnlocked==true)
         {
             StartCoroutine(Dash());
         }

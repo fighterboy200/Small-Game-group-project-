@@ -10,6 +10,7 @@ public class GrapplingGun : MonoBehaviour
     public Transform gunTip, camera, player; 
     private float maxDistance = 100f; // max distance the grapple can reach
     private SpringJoint joint; // spring joint used to simulate rope physics 
+    public bool GraplinggunUnlocked = false;
 
     // makes sure grapple is stopped when game starts
     void Start()
@@ -26,7 +27,7 @@ public class GrapplingGun : MonoBehaviour
     // gets mouse inputs and assigns functions to them
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0)&& GraplinggunUnlocked == true)
         {
             StartGrapple();
         }
