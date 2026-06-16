@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8184430496507346507}
   - component: {fileID: 1804509917930387709}
   - component: {fileID: 9055446082692338212}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MAGIKPOG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
