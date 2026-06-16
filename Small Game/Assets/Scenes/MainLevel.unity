@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Kitchen_Fridge
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e0c9fcaa8aaad3547969cceaf5e817c5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -712,10 +716,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5757406101998815754, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4545607439729760837, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -3057147933212194604, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: -6597479634153513328, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+    - target: {fileID: -413930134452501938, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -267388480630076389, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -723,6 +739,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: m_Name
       value: kitchenCabinetUpperDouble (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2634,6 +2654,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenSink
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4183910290530962848, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3639,10 +3671,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5757406101998815754, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4545607439729760837, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -3057147933212194604, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: -6597479634153513328, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+    - target: {fileID: -413930134452501938, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -267388480630076389, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -3650,6 +3694,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: m_Name
       value: kitchenCabinetUpperDouble (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4049,10 +4097,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenCabinetCornerInner (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7485737081976518432, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 72aa5e61dcad7d741983980419f7cd3f, type: 2}
+    - target: {fileID: 7719796028189333333, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4069,7 +4125,7 @@ GameObject:
   - component: {fileID: 1056729245}
   - component: {fileID: 1056729247}
   - component: {fileID: 1056729246}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: door (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4162,7 +4218,7 @@ GameObject:
   - component: {fileID: 1078336928}
   - component: {fileID: 1078336927}
   - component: {fileID: 1078336926}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Middle table (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5111,10 +5167,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenCabinet (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7671013147762853100, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: afe40126cef93b74b9253896f50f0d11, type: 2}
+    - target: {fileID: 8231767863837278123, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5358,10 +5426,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5757406101998815754, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4545607439729760837, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -3057147933212194604, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: -6597479634153513328, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+    - target: {fileID: -413930134452501938, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -267388480630076389, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5369,6 +5449,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: m_Name
       value: kitchenCabinetUpperDouble (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5389,7 +5473,7 @@ GameObject:
   - component: {fileID: 1307386339}
   - component: {fileID: 1307386338}
   - component: {fileID: 1307386337}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Middle table
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6463,7 +6547,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1509416569}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cabinets
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6663,10 +6747,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenCabinet (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7671013147762853100, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 716ecb6e788a5f644bfc606746b3c0bb, type: 2}
+    - target: {fileID: 8231767863837278123, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6683,7 +6779,7 @@ GameObject:
   - component: {fileID: 1582760338}
   - component: {fileID: 1582760340}
   - component: {fileID: 1582760339}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: kitchenCabinet (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6930,10 +7026,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenCabinetCornerInner
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7485737081976518432, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8b9dda4cb55a779438d67ec191564987, type: 2}
+    - target: {fileID: 7719796028189333333, guid: 38d2ea031c816d549945c715f32dcbfe, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8448,6 +8552,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: kitchenCabinet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 2647898422681595148, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.829
@@ -8456,10 +8564,18 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0
       objectReference: {fileID: 0}
+    - target: {fileID: 4423045620967985251, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 7671013147762853100, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 75c9d6e3b842f514dbbe6f41b0a46307, type: 2}
+    - target: {fileID: 8231767863837278123, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -8591,10 +8707,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -5757406101998815754, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: -4545607439729760837, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -3057147933212194604, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: -6597479634153513328, guid: e4d2e82ebd45b3e419be6bd112712f2d, type: 3}
+    - target: {fileID: -413930134452501938, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -267388480630076389, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -8602,6 +8730,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
       propertyPath: m_Name
       value: kitchenCabinetUpperDouble
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 31b1df2e53a234440a6476ec8516b8c8, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
