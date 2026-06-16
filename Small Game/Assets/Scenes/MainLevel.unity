@@ -1005,7 +1005,7 @@ GameObject:
   - component: {fileID: 269653975}
   - component: {fileID: 269653974}
   - component: {fileID: 269653973}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cube (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1719,7 +1719,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  - {fileID: 2100000, guid: 7a2552f96aaf6f04d9ad9ed1e9a36d7e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2907,6 +2907,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647898422681595148, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.022
       objectReference: {fileID: 0}
     - target: {fileID: 4183910290530962848, guid: 377050083f7aee44caf16bf64f577cb6, type: 3}
       propertyPath: m_Layer
@@ -4510,7 +4514,7 @@ Transform:
   m_GameObject: {fileID: 1056729244}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.002, y: 0, z: 0}
+  m_LocalPosition: {x: 0.002, y: 0, z: -0.0051}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -5656,7 +5660,7 @@ GameObject:
   - component: {fileID: 1174718977}
   - component: {fileID: 1174718976}
   - component: {fileID: 1174718975}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5851,6 +5855,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647898422681595148, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647898422681595148, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.005
       objectReference: {fileID: 0}
     - target: {fileID: 4423045620967985251, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: m_Layer
@@ -7393,7 +7405,7 @@ GameObject:
   - component: {fileID: 1513832651}
   - component: {fileID: 1513832650}
   - component: {fileID: 1513832649}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7562,6 +7574,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: m_Layer
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647898422681595148, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2647898422681595148, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0081
       objectReference: {fileID: 0}
     - target: {fileID: 4423045620967985251, guid: 5135afc72ad1a7041845cbb315eb5fdd, type: 3}
       propertyPath: m_Layer
@@ -7934,7 +7954,7 @@ GameObject:
   - component: {fileID: 1706262252}
   - component: {fileID: 1706262251}
   - component: {fileID: 1706262250}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8870,7 +8890,7 @@ GameObject:
   - component: {fileID: 1862091455}
   - component: {fileID: 1862091454}
   - component: {fileID: 1862091453}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Cylinder (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9401,7 +9421,7 @@ Transform:
   m_GameObject: {fileID: 2032333296}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.002, y: 0, z: 0}
+  m_LocalPosition: {x: 0.002, y: 0, z: -0.0027}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
